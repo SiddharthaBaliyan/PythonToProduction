@@ -23,5 +23,5 @@ def multiply(a: float, b: float) -> float:
 if __name__ == "__main__":
     print(greet("Stranger"))
     print(parse_email("user@example.com"))
-    print(add(5, 10,2))
+    print(add(5, 10))
     print(multiply(2.5, 4.0))
