@@ -16,12 +16,12 @@ def parse_email(email_address: str) -> str | None:
         return username
     return None
 
-def add(a: int, b: int) -> int:
-    return a + b
+def add(*args: int) -> int:
+    return sum(args)
 def multiply(a: float, b: float) -> float:
     return a * b
 if __name__ == "__main__":
     print(greet("Stranger"))
     print(parse_email("user@example.com"))
-    print(add(5, 10))
+    print(add(5, 10,20))
     print(multiply(2.5, 4.0))
