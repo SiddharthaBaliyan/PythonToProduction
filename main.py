@@ -17,6 +17,7 @@ def parse_email(email_address: str) -> str | None:
     return None
 
 def add(*args: int) -> int:
+    """ making a function that adds multiple integers """
     return sum(args)
 def multiply(a: float, b: float) -> float:
     return a * b
