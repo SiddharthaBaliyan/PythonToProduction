@@ -15,6 +15,13 @@ def parse_email(email_address: str) -> str | None:
         username, domain = email_address.split("@")
         return username
     return None
+
+def add(a: int, b: int) -> int:
+    return a + b
+def multiply(a: float, b: float) -> float:
+    return a * b
 if __name__ == "__main__":
     print(greet("Stranger"))
     print(parse_email("user@example.com"))
+    print(add(5, 10))
+    print(multiply(2.5, 4.0))
